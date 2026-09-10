@@ -1,72 +1,60 @@
-# Todo Management Web Application
-A full-stack Spring Boot web application designed for task management.
 
-This application is built with **Spring Boot, Spring MVC, JSP, Spring Security, Spring Data JPA, and H2**.
+# 📝 Todo Management Web Application
+
+A secure Todo management full stack web application built with **Spring Boot, Spring MVC, JSP, Spring Security, Spring Data JPA, H2**.
 
 The application supports user authentication, Todo CRUD operations, form validation, and database persistence using H2.
 
-## **Tech Stack**
+---
 
-* **Backend**: Java, Spring Boot, Spring MVC, Spring Security, Spring Data JPA
-* **Database**: H2 In-Memory Database
-* **Frontend**: JSP (JavaServer Pages), JSTL, Bootstrap 5, jQuery, Bootstrap Datepicker
-* **Validation**: Spring Boot Starter Validation (Hibernate Validator)
-* **Build Tool**: Maven
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Backend Framework** | Java, Spring Boot, Spring MVC |
+| **Security** | Spring Security (Form Authentication, BCrypt Password Encoding) |
+| **Persistence Layer** | Spring Data JPA, Hibernate |
+| **Database** | H2 In-Memory Database (`jdbc:h2:mem:testdb`) |
+| **Frontend Templates** | JSP (JavaServer Pages), JSTL |
+| **UI & Styling** | Bootstrap 5, jQuery, Bootstrap Datepicker |
+| **Validation** | Hibernate Validator (`spring-boot-starter-validation`) |
+| **Build Tooling** | Apache Maven |
 
 ---
 
-## **Key Features**
+## ✨ Key Features
 
-* **Authentication & Authorization**: Integrated Spring Security with custom `SecurityFilterChain` allowing form-based authentication.
-* **Todo CRUD Operations**: Full capability to list, add, update, and delete todo items tied to specific users.
-* **Input Validation**: Server-side validation on task descriptions requiring a minimum length before saving.
-* **Interactive UI**: Clean responsive layout using Bootstrap 5 along with integrated datepickers for target completion dates.
-* **In-Memory JPA Persistence**: Dynamic entity-to-table mapping using Spring Data JPA (`TodoRepository`) connected to H2.
-* **Data Initializer**: Automatic database seeding on startup using `data.sql`.
-
----
-
-## **Pre-Configured Demo Credentials**
-
-| Username | Password | Roles |
-| :--- | :--- | :--- |
-| `in28minutes` | `dummy` | USER, ADMIN |
-| `ranga` | `dummydummy` | USER, ADMIN |
+* **🔒 Authentication**: Secure authentication powered by Spring Security using standard form logins and BCrypt password encryption.
+* **⚡ Full Task Lifecycle (CRUD)**: Create, view, update, and delete personal todo items bound to individual logged-in user sessions.
+* **🛡️ Data Validation**: Server-side field validation to ensure valid description lengths and completion dates before saving.
+* **🎨 Responsive UI**: Built with Bootstrap 5 templates and interactive datepickers for accurate target date management.
+* **💾 JPA Persistence**: Automatic table schema generation and entity mapping via Spring Data JPA backed by H2.
+* **🌱 Automated Seeding**: Pre-loaded startup data populated automatically using custom SQL scripts.
 
 ---
 
-## **Configuration & Setup**
+## 🚀 Quick Start Guide
 
-### **App Properties (`application.properties`)**
-```properties
-spring.mvc.view.prefix=/WEB-INF/jsp/
-spring.mvc.view.suffix=.jsp
-spring.mvc.format.date=yyyy-MM-dd
+### **Prerequisites**
+* JDK 17 or higher
+* Maven 3.8+
 
-# H2 Database Setup
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.jpa.defer-datasource-initialization=true
-```
+### **Run Locally**
 
----
-
-## **How to Run**
-
-1. **Clone the Repository**
+1. **Clone Repository**
    ```bash
    git clone <your-repository-url>
    cd myfirstwebapp
    ```
 
-2. **Build and Run**
+2. **Launch Application**
    ```bash
    ./mvnw spring-boot:run
    ```
 
-3. **Access the Application**
-   * **Web App**: `http://localhost:8080`
-   * **H2 Database Console**: `http://localhost:8080/h2-console`
+3. **Access Endpoints**
+   * **Web Dashboard**: `http://localhost:8080`
+   * **H2 Console**: `http://localhost:8080/h2-console`
      * **JDBC URL**: `jdbc:h2:mem:testdb`
-     * **User Name**: `sa`
-     * **Password**: *(leave blank)*
-
+     * **Username**: `sa`
+     * **Password**: *(leave empty)*
