@@ -1,6 +1,7 @@
-package org.example.todo;
+package org.example.todo_temp;
 
 import jakarta.validation.Valid;
+import org.example.todo_final.Todo;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -14,11 +15,11 @@ public class TodoService {
     private static int toDoCount = 0;
 
     static {
-        Todos.add(new Todo(++toDoCount, "in28minutes", "Learn AWS",
+        Todos.add(new Todo(++toDoCount, "admin", "Learn AWS",
                 LocalDate.now().plusYears(1), false));
-        Todos.add(new Todo(++toDoCount, "in28minutes", "Learn DevOps",
+        Todos.add(new Todo(++toDoCount, "admin", "Learn DevOps",
                 LocalDate.now().plusYears(2), false));
-        Todos.add(new Todo(++toDoCount, "in28minutes", "Learn Full Stack Development",
+        Todos.add(new Todo(++toDoCount, "admin", "Learn Full Stack Development",
                 LocalDate.now().plusYears(3), false));
     }
 

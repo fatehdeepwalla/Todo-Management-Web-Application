@@ -1,9 +1,6 @@
 <%@ include file="common/header.jsp" %>
 <%@ include file="common/navigation.jsp" %>
 <div class="container">
-    Add ToDo Page!
-    <br>
-    ${username}
     <hr>
     <h1> Enter to do details </h1>
     <form:form method="post" modelAttribute="todo">
@@ -25,9 +22,11 @@
         <input type="submit" class="btn btn-success"/>
     </form:form>
 </div>
+
+<%@ include file="common/footer.jsp" %>
+
 <script type="text/javascript">
     $('#targetDate').datepicker({
         format: 'yyyy-mm-dd'
     });
 </script>
-<%@ include file="common/footer.jsp" %>

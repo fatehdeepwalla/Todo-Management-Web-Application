@@ -1,9 +1,9 @@
-package org.example.todo;
+package org.example.todo_temp;
 
 import jakarta.validation.Valid;
+import org.example.todo_final.Todo;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import java.time.LocalDate;
-
+// this class was the intermediate, final class is TodoControllerJPA
 //@Controller
 @SessionAttributes("username")
 public class TodoController {

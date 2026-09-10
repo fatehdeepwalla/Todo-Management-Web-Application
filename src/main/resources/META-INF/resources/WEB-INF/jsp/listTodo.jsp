@@ -2,7 +2,7 @@
 <%@ include file="common/navigation.jsp" %>
 <div class="container">
     <hr>
-    <h1> Your ToDos are: </h1>
+    <h1> ${username} your Todos are: </h1>
     <table class="table">
         <thead>
             <tr>

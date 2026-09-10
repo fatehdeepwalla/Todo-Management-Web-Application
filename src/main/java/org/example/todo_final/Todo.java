@@ -1,8 +1,7 @@
-package org.example.todo;
+package org.example.todo_final;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.Size;
 
@@ -20,6 +19,7 @@ public class Todo {
     private LocalDate targetDate;
     private boolean done;
 
+    public Todo(){}
     public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
         this.id = id;
         this.username = username;
