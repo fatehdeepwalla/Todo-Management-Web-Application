@@ -11,6 +11,7 @@
     <groupId>org.example</groupId>
     <artifactId>ToDo_APP</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
     <name>ToDo_APP</name>
     <description>ToDo_APP</description>
     <url/>
