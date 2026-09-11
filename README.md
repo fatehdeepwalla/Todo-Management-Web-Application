@@ -35,30 +35,24 @@ The application features user authentication, Todo CRUD operations, form validat
 
 ## 🚀 Quick Start Guide
 
-### **Prerequisites**
-* JDK 17 or higher
-* Maven 3.8+
+- **Prerequisites**
+   * JDK 17 or higher
+   * Maven 3.8+
 
-### **Run Locally**
+- **Run Locally**
 
-1. **Clone Repository**
-   ```bash
-   git clone <your-repository-url>
-   cd myfirstwebapp
-   ```
-
-2. **Launch Application**
-   ```bash
-   ./mvnw spring-boot:run
-   ```
+   - **Clone Repository**
+      ```bash
+      git clone https://github.com/fatehdeepwalla/Todo-Management-Web-Application.git
+      cd Todo-Management-Web-Application
+      ```
+   
+   - **Launch Application**
+      ```bash
+      ./mvnw spring-boot:run
+      ```
 ---
 
-## **🔗 Access Endpoints**
-   * **Web Dashboard**: `http://localhost:8080`
-   * **H2 Database Console**: `http://localhost:8080/h2-console`
-     * **JDBC URL**: `jdbc:h2:mem:testdb`
-     * **Username**: `sa`
-     * **Password**: *(leave empty)*
 
 ## 🔗 Accessing the Application
 
