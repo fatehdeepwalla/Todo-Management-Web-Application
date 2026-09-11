@@ -51,8 +51,9 @@ The application features user authentication, Todo CRUD operations, form validat
    ```bash
    ./mvnw spring-boot:run
    ```
+---
 
-3. **Access Endpoints**
+## **Access Endpoints**
    * **Web Dashboard**: `http://localhost:8080`
    * **H2 Console**: `http://localhost:8080/h2-console`
      * **JDBC URL**: `jdbc:h2:mem:testdb`
