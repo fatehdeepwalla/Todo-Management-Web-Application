@@ -70,7 +70,7 @@ The application features user authentication, Todo CRUD operations, form validat
   ./java -jar target/ToDo_APP-0.0.1-SNAPSHOT.war
   ```
 > **Note:** For your convenience, the pre-built .war file is provided below, so you can run the application directly without building the project yourself.<br>
-> **Download:** [Download the pre-built JAR ⬇️](ToDo_APP-0.0.1-SNAPSHOT.war)
+> **Download:** [Download the pre-built WAR ⬇️](ToDo_APP-0.0.1-SNAPSHOT.war)
 
 ---
 
