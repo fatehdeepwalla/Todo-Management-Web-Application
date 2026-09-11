@@ -3,7 +3,7 @@
 
 A secure full stack Todo management web application built with Spring Boot, Spring MVC, JSP, Spring Security, Spring Data JPA, H2.
 
-The application supports user authentication, Todo CRUD operations, form validation, and database persistence.
+The application features user authentication, Todo CRUD operations, form validation, and database persistence.
 
 ---
 
