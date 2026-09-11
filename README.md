@@ -59,4 +59,16 @@ The application features user authentication, Todo CRUD operations, form validat
      * **JDBC URL**: `jdbc:h2:mem:testdb`
      * **Username**: `sa`
      * **Password**: *(leave empty)*
-     
+
+## 🔗 Accessing the Application
+
+- 🌐 Web Dashboard: `http://localhost:8080`
+- 🗄️ H2 Database Console: `http://localhost:8080/h2-console`
+- ⚙️ Console Credentials & Settings:
+  
+   | Setting | Value |
+   | :--- | :--- |
+   | **JDBC URL** | `jdbc:h2:mem:testdb` |
+   | **Username** | `sa` |
+   | **Password** | *(Leave empty)* |
+
