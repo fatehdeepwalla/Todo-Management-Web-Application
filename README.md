@@ -67,10 +67,10 @@ The application features user authentication, Todo CRUD operations, form validat
 
 - Run the packaged application:
   ```bash
-  ./java -jar target/ToDo_APP-0.0.1-SNAPSHOT.jar
+  ./java -jar target/ToDo_APP-0.0.1-SNAPSHOT.war
   ```
-> **Note:** For your convenience, the pre-built .jar file is provided below, so you can run the application directly without building the project yourself.<br>
-> **Download:** [Download the pre-built JAR ⬇️](ToDo_APP-0.0.1-SNAPSHOT.jar)
+> **Note:** For your convenience, the pre-built .war file is provided below, so you can run the application directly without building the project yourself.<br>
+> **Download:** [Download the pre-built JAR ⬇️](ToDo_APP-0.0.1-SNAPSHOT.war)
 
 ---
 
