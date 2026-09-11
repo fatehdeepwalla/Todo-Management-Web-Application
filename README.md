@@ -14,10 +14,10 @@ The application features user authentication, Todo CRUD operations, form validat
 | **Backend Framework** | Java, Spring Boot, Spring MVC |
 | **Security** | Spring Security (Form Authentication, BCrypt Password Encoding) |
 | **Persistence Layer** | Spring Data JPA, Hibernate |
-| **Database** | H2 In-Memory Database (`jdbc:h2:mem:testdb`) |
+| **Database** | H2 In-Memory Database |
 | **Frontend Templates** | JSP (JavaServer Pages), JSTL |
 | **UI & Styling** | Bootstrap 5, jQuery, Bootstrap Datepicker |
-| **Validation** | Hibernate Validator (`spring-boot-starter-validation`) |
+| **Validation** | Hibernate Validator |
 | **Build Tooling** | Apache Maven |
 
 ---
