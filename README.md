@@ -53,9 +53,10 @@ The application features user authentication, Todo CRUD operations, form validat
    ```
 ---
 
-## **Access Endpoints**
+## **🔗 Access Endpoints**
    * **Web Dashboard**: `http://localhost:8080`
-   * **H2 Console**: `http://localhost:8080/h2-console`
+   * **H2 Database Console**: `http://localhost:8080/h2-console`
      * **JDBC URL**: `jdbc:h2:mem:testdb`
      * **Username**: `sa`
      * **Password**: *(leave empty)*
+     
