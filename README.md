@@ -41,13 +41,13 @@ The application features user authentication, Todo CRUD operations, form validat
 
 - **Run Locally**
 
-   - **Clone Repository**
+   - Clone Repository
       ```bash
       git clone https://github.com/fatehdeepwalla/Todo-Management-Web-Application.git
       cd Todo-Management-Web-Application
       ```
    
-   - **Launch Application**
+   - Launch Application
       ```bash
       ./mvnw spring-boot:run
       ```
