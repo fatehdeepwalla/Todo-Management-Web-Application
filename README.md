@@ -78,10 +78,16 @@ The application features user authentication, Todo CRUD operations, form validat
 ## 🔗 Accessing the Application
 
 - 🌐 Web Dashboard: `http://localhost:8080`
+- 🔐 Application Login:
+  
+  | Credential | Details |
+  | :--- | :--- |
+  | **Username** | `admin` |
+  | **Password** | `admin` |
 - 🗄️ H2 Database Console: `http://localhost:8080/h2-console`
 - ⚙️ Console Credentials & Settings:
   
-   | Setting | Value |
+   | Credential | Details |
    | :--- | :--- |
    | **JDBC URL** | `jdbc:h2:mem:testdb` |
    | **Username** | `sa` |
