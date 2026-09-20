@@ -54,6 +54,14 @@ public class TodoControllerJPA {
         return "redirect:/list-todo";
     }
 
+    @GetMapping("done-todo")
+    public String done(@RequestParam int id) {
+        Todo todo = todoRepository.findById(id).get();
+        todo.setDone(true);
+        todoRepository.save(todo);
+        return "redirect:/list-todo";
+    }
+
     @GetMapping("update-todo")
     public String updateGet(@RequestParam int id, ModelMap model) {
         Todo todo= todoRepository.findById(id).get();

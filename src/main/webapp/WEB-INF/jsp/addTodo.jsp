@@ -3,7 +3,7 @@
 <div class="container">
     <hr>
     <h1> Enter to do details </h1>
-    <form:form method="post" modelAttribute="todo">
+    <form:form method="post" modelAttribute="todo"  autocomplete="off">
 
         <fieldset class="mb-3">
             <form:label path="description"> Description </form:label>
@@ -18,7 +18,16 @@
         </fieldset>
 
         <form:input type="hidden" path="id" />
-        <form:input type="hidden" path="done" />
+
+        <fieldset class="mb-3">
+            <form:label path="done">Done</form:label>
+            <form:select path="done">
+                <form:option value="false">False</form:option>
+                <form:option value="true">True</form:option>
+            </form:select>
+            <form:errors path="done" cssClass="text-warning"/>
+        </fieldset>
+
         <input type="submit" class="btn btn-success"/>
     </form:form>
 </div>

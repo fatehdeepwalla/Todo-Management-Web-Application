@@ -11,6 +11,7 @@
                 <th>Is Done?</th>
                 <th></th>
                 <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -19,6 +20,7 @@
                     <td>${x.description}</td>
                     <td>${x.targetDate}</td>
                     <td>${x.done}</td>
+                    <td> <a href="done-todo?id=${x.id}" class="btn btn-success"> Done </a> </td>
                     <td> <a href="delete-todo?id=${x.id}" class="btn btn-warning"> Delete </a> </td>
                     <td> <a href="update-todo?id=${x.id}" class="btn btn-success"> Update </a> </td>
                 </tr>
