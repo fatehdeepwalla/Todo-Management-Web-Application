@@ -72,8 +72,27 @@ The application features user authentication, Todo CRUD operations, form validat
 > **Note:** For your convenience, the pre-built .war file is provided below, so you can run the application directly without building the project yourself.<br>
 > **Download:** [Download the pre-built WAR ⬇️](ToDo_APP-0.0.1-SNAPSHOT.war)
 
----
+### Option 3: Run using Docker
+- Prerequisites
+   * Docker Desktop installed and running
+   * No Java or Maven installation required
 
+- Clone Repository
+    ```bash
+    git clone https://github.com/fatehdeepwalla/Todo-Management-Web-Application.git
+    cd Todo-Management-Web-Application
+    ```
+
+- Build the Docker Image (Dockerfile is included in the project):
+  ```bash
+  docker build -t todo-app .
+  ```
+
+- Run the Docker Container:
+  ```bash
+  docker run -d -p 8080:8080 --name todo-app-container todo-app
+  ```
+---
 
 ## 🔗 Accessing the Application
 
