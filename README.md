@@ -90,7 +90,7 @@ The application features user authentication, Todo CRUD operations, form validat
 
 - Run the Docker Container:
   ```bash
-  docker run -d -p 8080:8080 --name todo-app-container todo-app
+  docker run -p 8080:8080 --name todo-app-container todo-app
   ```
 ---
 
