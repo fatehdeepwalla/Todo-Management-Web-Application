@@ -36,21 +36,18 @@ The application features user authentication, Todo CRUD operations, form validat
 ---
 
 ## 🚀 Quick Start Guide
-### Option 1: Run using Maven
-- Prerequisites
-   * JDK 17 or higher
-   * Maven 3.8+
 
-- Clone Repository
-    ```bash
-    git clone https://github.com/fatehdeepwalla/Todo-Management-Web-Application.git
-    cd Todo-Management-Web-Application
-    ```
-   
-- Launch Application
-    ```bash
-    ./mvnw spring-boot:run
-    ```
+### Option 1: Run using Docker
+- Prerequisites
+   * Docker Desktop installed and running
+   * No Java or Maven installation required
+     
+- Run the Pre-built Docker Image in container:
+  ```bash
+  docker container run -p 8080:8080 --name todo-app-container fatehdeepwalla/todo-app:v1
+  ```
+  > **Note:** A Dockerfile is included in the project for users who prefer to build the Docker image locally instead of using the pre-built image available on Docker Hub.
+
 ### Option 2: Run using the packaged WAR
 - Prerequisites
    * JDK 17 or higher
@@ -74,26 +71,22 @@ The application features user authentication, Todo CRUD operations, form validat
 > **Note:** For your convenience, the pre-built .war file is provided below, so you can run the application directly without building the project yourself.<br>
 > **Download:** [Download the pre-built WAR ⬇️](ToDo_APP-0.0.1-SNAPSHOT.war)
 
-### Option 3: Run using Docker
+
+### Option 3: Run using Maven
 - Prerequisites
-   * Docker Desktop installed and running
-   * No Java or Maven installation required
+   * JDK 17 or higher
+   * Maven 3.8+
 
 - Clone Repository
     ```bash
     git clone https://github.com/fatehdeepwalla/Todo-Management-Web-Application.git
     cd Todo-Management-Web-Application
     ```
-
-- Build the Docker Image (Dockerfile is included in the project):
-  ```bash
-  docker build -t todo-app .
-  ```
-
-- Run the Docker Container:
-  ```bash
-  docker run -p 8080:8080 --name todo-app-container todo-app
-  ```
+   
+- Launch Application
+    ```bash
+    ./mvnw spring-boot:run
+    ```
 ---
 
 ## 🔗 Accessing the Application
