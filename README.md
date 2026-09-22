@@ -25,13 +25,13 @@ The application features user authentication, Todo CRUD operations, form validat
 
 ## ✨ Key Features
 
-* **🔒 Authentication**: Secure authentication powered by Spring Security using standard form logins and BCrypt password encryption.
-* **⚡ Full Task Lifecycle (CRUD)**: Create, view, update, and delete personal todo items bound to individual logged-in user sessions.
-* **🛡️ Data Validation**: Server-side field validation to ensure valid description lengths and completion dates before saving.
-* **🎨 Responsive UI**: Built with Bootstrap 5 templates and interactive datepickers for accurate target date management.
-* **💾 JPA Persistence**: Automatic table schema generation and entity mapping via Spring Data JPA backed by H2.
-* **🌱 Automated Seeding**: Pre-loaded startup data populated automatically using custom SQL scripts.
-* **🐳 Docker Support**: Includes a Dockerfile for building and running the application as a container without requiring Java or Maven to be installed on the host machine.
+* **Authentication**: Secure authentication powered by Spring Security using standard form logins and BCrypt password encryption.
+* **Full Task Lifecycle (CRUD)**: Create, view, update, and delete personal todo items bound to individual logged-in user sessions.
+* **Data Validation**: Server-side field validation to ensure valid description lengths and completion dates before saving.
+* **Responsive UI**: Built with Bootstrap 5 templates and interactive datepickers for accurate target date management.
+* **JPA Persistence**: Automatic table schema generation and entity mapping via Spring Data JPA backed by H2.
+* **Automated Seeding**: Pre-loaded startup data populated automatically using custom SQL scripts.
+* **Docker Support**: Includes a Dockerfile for building and running the application as a container without requiring Java or Maven to be installed on the host machine.
 
 ---
 
